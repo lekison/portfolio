@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Name | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 text-gray-800 font-sans">
+    <!-- Header -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+      <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+        <h1 class="text-xl font-bold">Your Name</h1>
+        <nav class="space-x-4">
+          <a href="#about" class="hover:text-blue-500">About</a>
+          <a href="#projects" class="hover:text-blue-500">Projects</a>
+          <a href="#contact" class="hover:text-blue-500">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-blue-600 text-white py-20 text-center" id="home">
+      <h2 class="text-4xl font-bold mb-4">Hi, I'm Your Name</h2>
+      <p class="text-lg">Flutter Developer | Web Dev Enthusiast | Python Learner</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 px-4 max-w-4xl mx-auto">
+      <h3 class="text-2xl font-bold mb-4">About Me</h3>
+      <p>
+        I'm a self-taught developer with a passion for building mobile apps, scraping the web, and creating data dashboards. This portfolio showcases my current learning journey and real projects that solve real problems.
+      </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-16 px-4 bg-gray-50">
+      <div class="max-w-6xl mx-auto">
+        <h3 class="text-2xl font-bold mb-8 text-center">Projects</h3>
+        <div class="grid gap-6 md:grid-cols-2">
+          <div class="bg-white rounded-xl shadow p-6">
+            <h4 class="text-xl font-semibold mb-2">Flutter Finance Tracker</h4>
+            <p class="mb-2">Track expenses with charts and offline storage.</p>
+            <a href="#" class="text-blue-600 hover:underline">View Project</a>
+          </div>
+          <div class="bg-white rounded-xl shadow p-6">
+            <h4 class="text-xl font-semibold mb-2">Web Scraper Bot</h4>
+            <p class="mb-2">Python script that scrapes live job listings or product prices.</p>
+            <a href="#" class="text-blue-600 hover:underline">View Project</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 px-4 max-w-4xl mx-auto">
+      <h3 class="text-2xl font-bold mb-4">Contact Me</h3>
+      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="space-y-4">
+        <input type="text" name="name" placeholder="Your Name" required class="w-full border rounded p-2" />
+        <input type="email" name="email" placeholder="Your Email" required class="w-full border rounded p-2" />
+        <textarea name="message" placeholder="Your Message" rows="5" required class="w-full border rounded p-2"></textarea>
+        <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded">Send</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-6 text-sm bg-gray-200 mt-12">
+      &copy; 2025 Your Name. All rights reserved.
+    </footer>
+  </body>
+</html>
